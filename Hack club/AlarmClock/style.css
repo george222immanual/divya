@@ -1,0 +1,67 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    background-image: url(alary.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #020202;
+
+}    
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+  
+}
+
+#clock {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 4rem;
+    background-color: #ce3cc2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color: #df52df;
+    padding: 12px 20px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-color:plum;
+}
+
+.clear-alarm {
+    background-color: plum;
+}
+
+.piano option{
+    font-family: Verdana;
+}
